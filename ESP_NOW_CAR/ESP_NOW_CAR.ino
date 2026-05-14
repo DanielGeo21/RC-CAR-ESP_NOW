@@ -39,7 +39,7 @@ void tras() {
 void esquerda() {
   configurarVelocidade(255);
   digitalWrite(IN1, LOW);  digitalWrite(IN2, LOW);
-  digitalWrite(IN3, HIGH); digitalWrite(IN4, LOW);
+  digitalWrite(IN3, HIGH); digitalWrite(IN4, LO);
 }
 
 void direita() {
