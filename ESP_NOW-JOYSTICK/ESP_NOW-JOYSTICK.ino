@@ -1,3 +1,10 @@
+#include <AsyncUDP.h>
+
+#include <HTTP_Method.h>
+#include <Middlewares.h>
+#include <Uri.h>
+#include <WebServer.h>
+
 // ===== CONTROLE REMOTO ESPNOW (TRANSMISSOR) - VERSÃO CORRIGIDA V3.0+ =====
 
 #include <esp_now.h>
