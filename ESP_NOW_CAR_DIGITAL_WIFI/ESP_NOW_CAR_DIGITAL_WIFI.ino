@@ -24,7 +24,7 @@ String pagina = R"rawliteral(
 <html>
 
 <head>
-
+<meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 <style>
@@ -130,7 +130,7 @@ void velocidade(int vel){
 
 void frente(){
 
-  velocidade(255);
+  velocidade(128);
 
   digitalWrite(IN1, HIGH);
   digitalWrite(IN2, LOW);
@@ -141,7 +141,7 @@ void frente(){
 
 void tras(){
 
-  velocidade(255);
+  velocidade(128);
 
   digitalWrite(IN1, LOW);
   digitalWrite(IN2, HIGH);
@@ -152,23 +152,23 @@ void tras(){
 
 void esquerda(){
 
-  velocidade(255);
-
-  digitalWrite(IN1, LOW);
-  digitalWrite(IN2, LOW);
-
-  digitalWrite(IN3, HIGH);
-  digitalWrite(IN4, LOW);
-}
-
-void direita(){
-
-  velocidade(255);
+  velocidade(128);
 
   digitalWrite(IN1, HIGH);
   digitalWrite(IN2, LOW);
 
   digitalWrite(IN3, LOW);
+  digitalWrite(IN4, LOW);
+}
+
+void direita(){
+
+  velocidade(128);
+
+  digitalWrite(IN1, LOW);
+  digitalWrite(IN2, LOW);
+
+  digitalWrite(IN3, HIGH);
   digitalWrite(IN4, LOW);
 }
 
