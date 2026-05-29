@@ -193,8 +193,8 @@ void setup() {
   pinMode(IN3, OUTPUT);
   pinMode(IN4, OUTPUT);
 
-  ledcAttach(ENA, 1000, 8);
-  ledcAttach(ENB, 1000, 8);
+  ledcAttachChannel(ENA, 1000, 8, 0);
+ledcAttachChannel(ENB, 1000, 8, 1);
 
   parar();
 
